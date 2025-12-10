@@ -16,12 +16,13 @@ Installs a helm chart.
 | helm_chart_version            |           | The version of the chart                                                                               |
 | helm_value_file_template      |           | The path to a helm value file (e.g. from the role's templates folder)                                  |
 | helm_config_params            |           | Values to pass to helm via the `--set` option                                                          |
-| helm_kubeconfig               |           | Adds the `--kubeconfig` option to point helm to another than the default kubeconfig path               | 
+| helm_kubeconfig               |           | Adds the `--kubeconfig` option to point helm to another than the default kubeconfig path               |
 | helm_force                    |           | Adds the `--force` option                                                                              |
+| helm_debug                    |           | Adds the `--debug` option                                                                              |
 | helm_repo                     |           | Adds the chart repository URL                                                                          |
 | helm_wait                     |           | Adds the `--wait` option                                                                               |
 | helm_timeout                  |           | Waits the given period of time before giving up when used in conjunction with `--wait`                 |
-| helm_skip_crds                |           | Skips the CRD installation step                                                                        | 
+| helm_skip_crds                |           | Skips the CRD installation step                                                                        |
 | helm_bin                      |           | Alternative path to the helm binary                                                                    |
 | helm_chart_remote_temp        |           | The path on the target host where the values file is templated to                                      |
 | helm_chart_custom_folder      |           | The path to a local helm chart                                                                         |
