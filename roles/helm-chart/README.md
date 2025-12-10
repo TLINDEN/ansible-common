@@ -19,6 +19,7 @@ Installs a helm chart.
 | helm_kubeconfig               |           | Adds the `--kubeconfig` option to point helm to another than the default kubeconfig path               |
 | helm_force                    |           | Adds the `--force` option                                                                              |
 | helm_debug                    |           | Adds the `--debug` option                                                                              |
+| helm_dryrun                   |           | Adds the `--debug` and `--dry-run` options                                                             |
 | helm_repo                     |           | Adds the chart repository URL                                                                          |
 | helm_wait                     |           | Adds the `--wait` option                                                                               |
 | helm_timeout                  |           | Waits the given period of time before giving up when used in conjunction with `--wait`                 |
